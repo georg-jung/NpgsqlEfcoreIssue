@@ -25,7 +25,6 @@ namespace NpgsqlEfcoreIssue
     {
         public int TestModelId { get; set; }
 
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public Instant Created { get; set; }
     }
 
